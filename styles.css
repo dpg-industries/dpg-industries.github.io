@@ -10,41 +10,42 @@
   --bg:           #f5efe4;
   --bg2:          #ede6d8;
   --card-bg:      #ffffff;
-  --card-border:  rgba(180,140,60,0.12);
+  --card-border:  rgba(59,130,246,0.12);
   --nav-bg:       rgba(245,239,228,0.88);
   --text:         #1c1710;
   --text-muted:   #7A8AA6;
   --accent:       #3B82F6;
   --accent-dark:  #1E40AF;
-  --accent-glow:  rgba(200,145,42,0.22);
-  --pill-bg:      rgba(200,145,42,0.08);
-  --pill-border:  rgba(200,145,42,0.2);
+  --accent-glow:  rgba(59,130,246,0.22);
+  --pill-bg:      rgba(59,130,246,0.08);
+  --pill-border:  rgba(30,64,175,0.22);
   --shadow:       0 4px 24px rgba(100,70,20,0.10);
   --shadow-hover: 0 10px 40px rgba(100,70,20,0.18);
-  --hero-line:    rgba(180,130,40,0.18);
-  --strip-bg:     rgba(200,145,42,0.06);
-  --divider:      rgba(180,140,60,0.15);
+  --hero-line:    rgba(59,130,246,0.18);
+  --strip-bg:     rgba(59,130,246,0.06);
+  --divider:      rgba(59,130,246,0.14);
 }
 
 [data-theme="dark"] {
   --bg:           #0b0b0b;
-  --bg2:          #111008;
-  --card-bg:      #181510;
-  --card-border:  rgba(200,145,42,0.18);
-  --nav-bg:       rgba(11,11,11,0.92);
+  --bg2:          #0B1020;
+  --card-bg:      #0F172A;
+  --card-border:  rgba(59,130,246,0.18);
+  --nav-bg:       rgba(11,16,32,0.92);
   --text:         #f0e8d8;
   --text-muted:   #7A8AA6;
   --accent:       #3B82F6;
   --accent-dark:  #1E40AF;
-  --accent-glow:  rgba(212,168,67,0.28);
-  --pill-bg:      rgba(212,168,67,0.08);
-  --pill-border:  rgba(212,168,67,0.25);
+  --accent-glow:  rgba(30,64,175,0.34);
+  --pill-bg:      rgba(59,130,246,0.10);
+  --pill-border:  rgba(30,64,175,0.30);
   --shadow:       0 4px 32px rgba(0,0,0,0.5);
   --shadow-hover: 0 12px 48px rgba(0,0,0,0.7);
-  --hero-line:    rgba(212,168,67,0.22);
-  --strip-bg:     rgba(212,168,67,0.05);
-  --divider:      rgba(212,168,67,0.12);
+  --hero-line:    rgba(59,130,246,0.22);
+  --strip-bg:     rgba(59,130,246,0.06);
+  --divider:      rgba(59,130,246,0.14);
 }
+
 
 /* ─── Reset & Base ──────────────────────────────────────────────── */
 *, *::before, *::after {
