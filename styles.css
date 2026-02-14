@@ -6,45 +6,46 @@
 /* Playfair Display + DM Sans */
 
 /* ─── CSS Variables ────────────────────────────────────────────── */
-:root {
-  --bg:           #e4edf5;
-  --bg2:          #e0ebf5;
-  --card-bg:      #ffffff;
-  --card-border:  rgba(59,130,246,0.12);
-  --nav-bg:       rgba(228, 234, 245, 0.88);
-  --text:         #10151c;
-  --text-muted:   #7A8AA6;
-  --accent:       #3B82F6;
-  --accent-dark:  #1E40AF;
-  --accent-glow:  rgba(59,130,246,0.22);
-  --pill-bg:      rgba(59,130,246,0.08);
-  --pill-border:  rgba(30,64,175,0.22);
-  --shadow:       0 4px 24px rgba(100,70,20,0.10);
-  --shadow-hover: 0 10px 40px rgba(100,70,20,0.18);
-  --hero-line:    rgba(59,130,246,0.18);
-  --strip-bg:     rgba(59,130,246,0.06);
-  --divider:      rgba(59,130,246,0.14);
+:root{
+  --bg:#F4F8FF;
+  --bg2:#ECF3FF;
+  --card-bg:#FFFFFF;
+  --card-border:rgba(30,136,255,0.12);
+  --nav-bg:rgba(244,248,255,0.90);
+  --text:#0B1220;
+  --text-muted:#5B6B85;
+  --accent:#1E88FF;
+  --accent-dark:#1D4ED8;
+  --accent-glow:rgba(30,136,255,0.24);
+  --pill-bg:rgba(30,136,255,0.10);
+  --pill-border:rgba(29,78,216,0.22);
+  --shadow:0 6px 24px rgba(9,30,66,0.10);
+  --shadow-hover:0 12px 40px rgba(9,30,66,0.16);
+  --hero-line:rgba(30,136,255,0.18);
+  --strip-bg:rgba(30,136,255,0.06);
+  --divider:rgba(30,136,255,0.14);
 }
 
-[data-theme="dark"] {
-  --bg:           #0b0b0b;
-  --bg2:          #0B1020;
-  --card-bg:      #0F172A;
-  --card-border:  rgba(59,130,246,0.18);
-  --nav-bg:       rgba(11,16,32,0.92);
-  --text:         #d8dbf0;
-  --text-muted:   #7A8AA6;
-  --accent:       #3B82F6;
-  --accent-dark:  #1E40AF;
-  --accent-glow:  rgba(30,64,175,0.34);
-  --pill-bg:      rgba(59,130,246,0.10);
-  --pill-border:  rgba(30,64,175,0.30);
-  --shadow:       0 4px 32px rgba(0,0,0,0.5);
-  --shadow-hover: 0 12px 48px rgba(0,0,0,0.7);
-  --hero-line:    rgba(59,130,246,0.22);
-  --strip-bg:     rgba(59,130,246,0.06);
-  --divider:      rgba(59,130,246,0.14);
+[data-theme="dark"]{
+  --bg:#070A12;
+  --bg2:#0B1220;
+  --card-bg:#0F1A2B;
+  --card-border:rgba(79,163,255,0.20);
+  --nav-bg:rgba(7,10,18,0.86);
+  --text:#E7EEF9;
+  --text-muted:#9AA8C4;
+  --accent:#4FA3FF;
+  --accent-dark:#1E88FF;
+  --accent-glow:rgba(79,163,255,0.28);
+  --pill-bg:rgba(79,163,255,0.12);
+  --pill-border:rgba(79,163,255,0.30);
+  --shadow:0 6px 34px rgba(0,0,0,0.55);
+  --shadow-hover:0 14px 52px rgba(0,0,0,0.75);
+  --hero-line:rgba(79,163,255,0.22);
+  --strip-bg:rgba(79,163,255,0.08);
+  --divider:rgba(79,163,255,0.18);
 }
+
 
 
 /* ─── Reset & Base ──────────────────────────────────────────────── */
