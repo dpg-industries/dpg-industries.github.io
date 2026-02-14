@@ -19,9 +19,8 @@
     </a>
 
     <ul class="nav-links">
-      <li class="active"><a href="index.html">Explore</a></li>
-      <li><a href="#">Practice</a></li>
-      <li><a href="#">Learn</a></li>
+      <li><a href="home.html">Home</a></li>
+      <li class="active"><a href="index.html">App</a></li>
     </ul>
 
     <div class="nav-right">
@@ -337,13 +336,6 @@
       if (Math.abs(dx) > 40) goToSlide(dx < 0 ? current + 1 : current - 1);
     });
 
-    /* ── Nav active ── */
-    document.querySelectorAll('.nav-links a').forEach(a => {
-      a.addEventListener('click', e => {
-        document.querySelectorAll('.nav-links li').forEach(li => li.classList.remove('active'));
-        a.parentElement.classList.add('active');
-      });
-    });
   </script>
 </body>
 </html>
