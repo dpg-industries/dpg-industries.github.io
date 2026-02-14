@@ -7,8 +7,8 @@
 
 /* ─── CSS Variables ────────────────────────────────────────────── */
 :root {
-  --bg:           #e4e4f5;
-  --bg2:          #d8dfed;
+  --bg:           #e4edf5;
+  --bg2:          #e0ebf5;
   --card-bg:      #ffffff;
   --card-border:  rgba(59,130,246,0.12);
   --nav-bg:       rgba(228, 234, 245, 0.88);
